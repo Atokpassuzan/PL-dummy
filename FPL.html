@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Fantasy Premier League
+	</title>
+	<style>
+		
+			header,footer{
+				padding: 10px;
+				background-color: purple;
+				color: white;
+				text-align: center;
+			}
+			nav ul li{
+                 display: inline;
+                 padding: 20px;
+                 background-color:purple;
+
+			}
+            a{
+            	color: white; 
+            	text-decoration: none; 
+            	font-family:verdana;
+            }
+            body {
+                background-image: url('back.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+            form{
+            	color: white; 
+            	text-decoration: none; 
+            	font-family:verdana;
+        
+            }
+            input.a{
+            	background-color: purple;
+            }
+
+	 </style>
+</head>
+<body >
+	<header>
+		<h1 style="font-family:verdana;font-size: 40px">F A N T A S Y &nbsp; P R E M I E R &nbsp;  L E A G U E</h1>
+    </header>
+    <hr>
+	<nav> 
+       <ul>
+       	 <li><a href="index.html">Home</a></li>
+          <li><a href="FPL.html">Fantasy Premier League</a></li>
+           <li><a href="Table.html">Tables</a></li>
+            <li><a href="Fixures.html">Fixures</a></li>
+             <li><a href="Transfers.html">Transfers</a></li>
+              <li><a href="Gallery.html">Gallery</a></li>
+       </ul>
+	</nav>
+ <br>
+ <br>
+
+   <form method="post" action="contact.php">
+   	<fieldset style="background-color: purple;"><br><br>
+   		<legend><b>&nbsp;&nbsp;&nbsp;P L E A S E &nbsp;&nbsp;&nbsp; F I L L&nbsp;&nbsp;&nbsp; T H E &nbsp;&nbsp;&nbsp; F O L L O W I N G &nbsp;&nbsp;&nbsp; F O R M &nbsp;&nbsp;&nbsp;</b></legend><br>
+   		<label>F U L L &nbsp; N A M E :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="fantasy.png" height="350" width="900" align="right">
+   		  <input type="text" name="fullname" placeholder="Enter full name"><br><br>
+
+   		<label>P A S S W O R D:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   		  <input type="password" name="password" placeholder="Enter your password"><br><br>
+
+   		<label>P H O N E &nbsp; N U M B E R :</label>
+   		  <input type="telephone" name="fullname" placeholder="Enter your phone number"><br><br>
+
+   		<label>G E N D E R:</label><br><br>
+   		  <input type="radio" name="gender">M a l e<br>
+   		  <input type="radio" name="gender">F e m a l e<br>
+   		  <input type="radio" name="gender">O t h e r<br>
+        <br>
+
+        <label>F A V O R I T E &nbsp; C L U B:</label>
+   		  <select>
+   			<option>Arsenal</option>
+   			<option>Aston Villa </option>
+   			<option>AFC Bournemouth</option>
+   			<option>Burnley</option>
+   			<option>Brighton</option>
+   			<option>Crystal Palace</option>
+   			<option>Chelsea</option>
+   			<option>Fullham</option>
+   			<option>Huddelsfield</option>
+   			<option>Leicester City</option>
+   			<option>Manchester City</option>
+   			<option>Manchester United</option>
+   			<option>Middlesbourgh</option>
+   			<option>Newcastle United</option>
+   			<option>Norwich City</option>
+   			<option>Queens Park Rangers</option>
+   			<option>Sheffield United</option>
+   			<option>Southhampton</option>
+   			<option>Watford</option>
+   			<option>Wolves</option>
+   			<br>
+   		  </select>
+
+        <br><br> 
+
+   		<label>I &nbsp;A M  :</label><br>
+   		  <input type="checkbox" name="beginner">Beginner<br>
+   		  <input type="checkbox" name="intermediate">Intermediate<br>
+   		  <input type="checkbox" name="professional">Professional<br>
+        <br>
+
+        <label>M E S S A G E:</label><br>
+          <textarea rows="5" cols="50" >
+         
+          </textarea>
+             <input type="submit" name="submit">
+   	</fieldset>
+   </form>
+
+   
+
+</body>
+</html>
