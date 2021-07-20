@@ -1,2 +1,2 @@
 # PLWebsite
-This is a simple Premier League website using HTML
+Just for HTML/CSS practice 
